@@ -15,7 +15,6 @@ func init() {
 }
 
 func main() {
-	fmt.Println(domain.Data)
 	args := os.Args
 	if len(args) == 1 {
 		log.Fatal("Not enogph arguments")
