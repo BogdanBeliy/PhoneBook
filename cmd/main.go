@@ -31,7 +31,7 @@ func main() {
 		if result == nil {
 			fmt.Printf("Item not found %s", args[2])
 		}
-		fmt.Printf("Name: %s, Surname: %s, Tel: %s", result.Name, result.Surname, result.Tel)
+		fmt.Println(result)
 	case "list":
 		domain.List()
 	default:
